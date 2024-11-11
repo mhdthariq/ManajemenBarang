@@ -25,6 +25,11 @@ A simple inventory management app built for managing and tracking products (bara
 2. Open the project in **Android Studio**.
 3. Build and run the app on an Android device or emulator.
 
+## Application Install
+1. Click tags on 'Releases'
+2. Click version app like 'v0.0.1'
+3. Download the App or Source code
+
 ## Usage
 
 - **Add a new product**: Enter details in the input fields and tap "Add Barang".
