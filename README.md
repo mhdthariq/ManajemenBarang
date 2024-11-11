@@ -13,7 +13,7 @@ A simple inventory management app built for managing and tracking products (bara
 ## Requirements
 
 - Android Studio
-- Java 8 or later
+- Java 20 or later
 - SQLite (used for local storage)
 
 ## Installation
@@ -34,4 +34,4 @@ A simple inventory management app built for managing and tracking products (bara
 
 ## Screenshots
 
-_Add relevant screenshots here to show the app's interface._
+<img src="image/ManajemenBarangScreenshot.png" alt="Screenshot" style="max-width: 100%; height: auto;">
