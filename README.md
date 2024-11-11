@@ -34,4 +34,4 @@ A simple inventory management app built for managing and tracking products (bara
 
 ## Screenshots
 
-<img src="image/ManajemenBarangScreenshot.png" alt="Screenshot" style="max-width: 100%; height: auto;">
+<img src="images/ManajemenBarangScreenshot.png" alt="Screenshot" style="max-width: 100%; height: auto;">
