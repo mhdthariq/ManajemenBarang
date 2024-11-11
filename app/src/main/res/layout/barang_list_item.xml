@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:gravity="center_vertical">
+
+    <!-- TextView for Kode Barang -->
+    <TextView
+        android:id="@+id/kodeBarangView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Kode Barang"
+        android:textStyle="bold"
+        android:textColor="@color/primaryTextColor"
+        android:ellipsize="end"
+        android:maxLines="1" />
+
+    <!-- TextView for Nama Barang -->
+    <TextView
+        android:id="@+id/namaBarangView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:paddingStart="10dp"
+        android:text="Nama Barang"
+        android:textColor="@color/primaryTextColor"
+        android:ellipsize="end"
+        android:maxLines="1" />
+
+    <!-- TextView for Merk -->
+    <TextView
+        android:id="@+id/merkView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingStart="10dp"
+        android:text="Merk"
+        android:textColor="@color/primaryTextColor"
+        android:ellipsize="end"
+        android:maxLines="1" />
+
+    <!-- TextView for Harga Barang -->
+    <TextView
+        android:id="@+id/hargaBarangView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:paddingStart="10dp"
+        android:text="Harga"
+        android:textColor="@color/primaryTextColor"
+        android:ellipsize="end"
+        android:maxLines="1" />
+
+    <!-- TextView for Jumlah Stock -->
+    <TextView
+        android:id="@+id/jumlahStockView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingStart="10dp"
+        android:text="Stock"
+        android:textColor="@color/primaryTextColor"
+        android:ellipsize="end"
+        android:maxLines="1" />
+</LinearLayout>

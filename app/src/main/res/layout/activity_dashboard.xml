@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/backgroundColor">
+
+    <!-- Title TextView -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Barang Dashboard"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:paddingBottom="24dp"
+        android:textColor="@color/primaryTextColor"/>
+
+    <!-- Input Fields for Barang Data -->
+    <EditText
+        android:id="@+id/kodeBarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kode Barang"
+        android:inputType="text"
+        android:padding="12dp"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/primaryTextColor"
+        android:textColorHint="@color/dark_gray"/>
+
+    <EditText
+        android:id="@+id/namaBarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Barang"
+        android:inputType="text"
+        android:padding="12dp"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/primaryTextColor"
+        android:textColorHint="@color/dark_gray"/>
+
+    <EditText
+        android:id="@+id/merk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Merk"
+        android:inputType="text"
+        android:padding="12dp"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/primaryTextColor"
+        android:textColorHint="@color/dark_gray"/>
+
+    <EditText
+        android:id="@+id/hargaBarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Harga Barang"
+        android:inputType="number"
+        android:padding="12dp"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/primaryTextColor"
+        android:textColorHint="@color/dark_gray"/>
+
+    <EditText
+        android:id="@+id/jumlahStock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jumlah Stock"
+        android:inputType="number"
+        android:padding="12dp"
+        android:background="@drawable/edit_text_background"
+        android:layout_marginBottom="24dp"
+        android:textColor="@color/primaryTextColor"
+        android:textColorHint="@color/dark_gray"/>
+
+    <!-- Action Buttons -->
+    <Button
+        android:id="@+id/addBarangButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Barang"
+        android:backgroundTint="@color/buttonColor"
+        android:textColor="@android:color/white"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/updateBarangButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Barang"
+        android:backgroundTint="@color/buttonColor"
+        android:textColor="@android:color/white"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/deleteBarangButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Barang"
+        android:backgroundTint="@color/buttonColor"
+        android:textColor="@android:color/white"
+        android:padding="12dp"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- ListView for Displaying Barang Data -->
+    <ListView
+        android:id="@+id/barangListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="16dp"
+        android:background="@color/white"/>
+
+</LinearLayout>

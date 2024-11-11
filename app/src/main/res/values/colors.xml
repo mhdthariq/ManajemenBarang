@@ -1,0 +1,16 @@
+<resources>
+    <color name="backgroundColor">#F5F5F5</color> <!-- Light background color -->
+    <color name="primaryTextColor">#333333</color> <!-- Dark text color -->
+    <color name="buttonColor">#6200EE</color> <!-- Primary button color -->
+    <color name="strokeColor">#CCCCCC</color> <!-- Light stroke for input fields -->
+
+    <!-- Additional Colors -->
+    <color name="white">#FFFFFF</color> <!-- White color -->
+    <color name="dark_gray">#7D7D7D</color> <!-- Dark Gray color -->
+    <color name="lightGray">#F0F0F0</color> <!-- Light gray for backgrounds -->
+    <color name="darkGray">#A9A9A9</color> <!-- Dark gray for text hints -->
+    <color name="blue">#007BFF</color> <!-- Bright blue for buttons -->
+    <color name="errorColor">#FF0000</color> <!-- Red for error messages -->
+    <color name="successColor">#28A745</color> <!-- Green for success messages -->
+    <color name="warningColor">#FFC107</color> <!-- Yellow for warnings -->
+</resources>
