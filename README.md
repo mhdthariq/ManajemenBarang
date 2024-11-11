@@ -27,7 +27,7 @@ A simple inventory management app built for managing and tracking products (bara
 
 ## Application Install
 1. Click tags on 'Releases'
-2. Click version app like 'v0.0.1'
+2. Click 'App Release'
 3. Download the App or Source code
 
 ## Usage
